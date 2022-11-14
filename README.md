@@ -11,8 +11,11 @@ How to run?
 
 `-t` tree file
 `-f` fasta file
+`-e` target
+`-a` fasta format
+`-v` see logs
 ```shell
-gerpcol -t NP_000006.2.blast.dnd -f NP_000006.2.blast.aln.fa -e NP_000006.2
+./gerpcol -t NP_000006.2.blast.dnd -f NP_000006.2.blast.aln.fa -e NP_000006.2 -v -j -a
 ```
 
 ### Update 2022.10.28
@@ -38,6 +41,7 @@ Correct the code from github, and run successfully. But it only can calculate sc
       * MSA Fasta input `NP_000006.2.blast.aln.fa`
       * Tree input `NP_000006.2.blast.dnd`
       * Result `NP_000006.2.blast.aln.fa.rates`
+      * Command `./gerpcol -t NP_000006.2.blast.dnd -f NP_000006.2.blast.aln.fa -e NP_000006.2 -v -j -a`
 4. **Note**
 * My input examples come from ClustalOmega, and fasta file is generate by biopython.
 * **Make tree file in one line without space string.**
