@@ -3,7 +3,7 @@
 
 
 The code from GERP++ Home Page is not available, but I found a copy in Github [tvkent/GERPplusplus](https://github.com/tvkent/GERPplusplus).
-You can also find it [here](source/gerp++KRT.tar.gz).
+You can also find it [here](gerp++KRT).
 
 After downloading it, unzip it and run `make`. **(Please note that only available in Linux, can't in Windows)**
 
